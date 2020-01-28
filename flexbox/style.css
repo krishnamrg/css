@@ -1,0 +1,31 @@
+body{
+    background: navajowhite;
+}
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.flex-container{
+    background: #fff;
+    display: flex;
+}
+
+.box{
+    width: 300px;
+    height: 100px;
+}
+
+.one{
+    background-color: red;
+    flex-shrink: 1;
+}
+.two{
+    background-color: blue;
+    flex-shrink: 2;
+}
+.three{
+    background-color: green;
+    flex-shrink: 3;
+}

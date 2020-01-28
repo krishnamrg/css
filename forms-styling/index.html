@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="ninja cap image">
+    </header>
+    <form>
+        <!--gender region-->
+        <p>You are a..</p>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label><br>
+
+        <!--interests-->
+        <p>Who is interested in..</p>
+        <input type="checkbox" name="webdevelopment" id="webdevelopment">
+        <label for="webdevelopment">Web Development</label><br>
+        <input type="checkbox" name="photoshop" id="photoshop">
+        <label for="photoshop">Photoshop</label><br>
+        <input type="checkbox" name="singingmadonnasongs" id="singingmadonnasongs">
+        <label for="singingmadonnasongs">Singing Madonna Songs</label>
+        <br>
+        <br>
+
+        <!--Contact Info-->
+        <fieldset>
+            <legend>Contact Info</legend>
+            <input type="email" name="email" id="email" placeholder="Enter Email">
+            <span class="tick"></span>
+            <input type="telephone" name="telephone" id="telephone" placeholder="Enter Telephone">
+            <span class="tick"></span>
+        </fieldset>
+        <br>
+        <!-- contact type -->
+        <p>How would you like to be contacted?</p>
+        <select name="contact-type" id="contact-type">
+            <option value="by-email">By Email</option>
+            <option value="by-phone">By Telephone</option>
+        </select>
+        <input type="submit" value="Become a Ninja"/>
+    </form>
+</body>
+</html>
