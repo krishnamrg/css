@@ -1,0 +1,23 @@
+{
+  "name": "quote-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build && npm run open",
+    "open": "concurrently \"http-server -a localhost -p 1234\" \"open http://localhost:1234\"",
+    "bundle": "rollup script.js --file bundle.js --format iife",
+    "uglify": "uglifyjs --compress --mangle -- bundle.js",
+    "build": "npm run bundle"
+  },
+  "author": "krishnamg",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.19.2",
+    "concurrently": "^5.2.0",
+    "http-server": "^0.12.1",
+    "rollup": "^2.7.2",
+    "uglify-js": "^3.9.1"
+  }
+}

@@ -1,0 +1,85 @@
+#root {
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.wrapper{
+  width: 80%;
+  color: #16B6DF;
+  height: 100%;
+  margin: auto;
+}
+
+.quote-card {
+  width: 90%;
+  border: 1px solid gray;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.quote-title {
+  width: 100%;
+  text-align: left;
+}
+
+.quote-text {
+  font-size: 36px;
+  color: #B5B5B5;
+}
+
+.quote-credits{
+  font-size: 26px;
+}
+
+.quotes{
+  color: #16B6DF; 
+}
+
+.quote-card-footer, .quote-card-title{
+  display: flex;
+  justify-content: space-between;
+}
+
+.quote-source {
+  color: #B5B5B5;
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.fa-sync-alt{
+  color: #16B6DF; 
+}
+
+.quote-card::after{
+  right: 300px;
+  content: '\201d';  
+}
+
+.quote-card::before {
+  left: 75px;
+  content: '\201c';
+}
+
+.quote-card::before, .quote-card::after {
+  position: absolute;
+  top: 65px;
+  font-size: 350px;
+  color: #16B6DF;
+  font-family: Arial;
+  font-weight: bold;
+  line-height: 300px;
+}
+
+.fa-sync-alt {
+  cursor: pointer;
+}
+
+.next-quote {
+  width:25px; 
+  height:25px; 
+  font-size: 48px; 
+  color: #16B6DF; 
+  cursor: pointer;
+}
