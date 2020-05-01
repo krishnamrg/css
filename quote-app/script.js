@@ -30,7 +30,7 @@ getQuotePromise().then(data => {
     }
 
     let finalString = htmlArr.join('');
-    document.getElementsById('root')[0].innerHTML = finalString;
+    document.getElementById('root').innerHTML = finalString;
     //getQuoteUsingAxios();
 });
 
