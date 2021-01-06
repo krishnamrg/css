@@ -14,7 +14,7 @@
   "author": "krishnamg",
   "license": "ISC",
   "devDependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "concurrently": "^5.2.0",
     "http-server": "^0.12.1",
     "rollup": "^2.7.2",
